@@ -39,8 +39,6 @@ public class Posteo {
     @JsonBackReference
     private Autor autorPost;
 
-
-
     public Posteo() {
     }
 

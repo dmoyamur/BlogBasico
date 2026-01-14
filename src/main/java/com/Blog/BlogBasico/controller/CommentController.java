@@ -19,7 +19,7 @@ public class CommentController {
         this.commentService = commentService;
     }
 
-    @GetMapping("/comment")
+    @GetMapping
     public List<Comment> listaComments(){
         return commentService.obtenerTodos();
     }

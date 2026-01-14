@@ -25,7 +25,6 @@ public class Comment {
     @ManyToOne
     @JoinColumn(name="id_Posteo")
     @JsonBackReference
-
     private Posteo post;
 
     public Comment() {
